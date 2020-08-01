@@ -342,12 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/leeco/s2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/leeco/s2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/leeco/s2/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/leeco/s2/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/leeco/s2/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/leeco/s2/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
-    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/leeco/s2/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/leeco/s2/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/leeco/s2/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/leeco/s2/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
@@ -474,7 +468,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
-    vendor/leeco/s2/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/leeco/s2/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/leeco/s2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -795,19 +788,4 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    vendor.display.color@1.0 \
-    QtiTelephonyService \
-    UEIQuicksetSDKLeTV \
-    uceShimService \
-    CNEService \
-    dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    PowerOffAlarm \
-    TimeService \
-    imssettings \
-    QPerformance \
-    QtiTelephonyServicelibrary \
-    UxPerformance \
-    qcrilhook \
-    qti-telephony-common
+    vendor.display.color@1.0
